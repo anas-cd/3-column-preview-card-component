@@ -111,6 +111,9 @@ main {
         border: none;
         font-size: 1rem;
         text-align: center;
+        @media #{$mq-850-down}{
+            margin-top: auto;
+        }
         
         &:hover {
             cursor: pointer;
@@ -121,6 +124,9 @@ main {
     .breaker {
         height: 1rem;
         flex: 1 0 10%;
+        @media #{$mq-850-down}{
+            flex: none;
+        }
     }
 
 }
